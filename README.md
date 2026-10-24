@@ -75,11 +75,10 @@ The project itself uses **only Python's standard library** and the above externa
 ### Option A — Clone from GitHub
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/live-photo-heic-mov.git
+git clone [https://github.com/davidlee1102/apple_live_photo_convert.git](https://github.com/davidlee1102/apple_live_photo_convert/)
 cd live-photo-heic-mov
 ```
 
-Replace `YOUR_USERNAME` with the GitHub user or organisation hosting your repository.
 
 ### Option B — Download a ZIP
 
