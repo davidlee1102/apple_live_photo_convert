@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "live-photo-heic-mov"
+version = "1.0.0"
+description = "Safely package matching HEIC and MOV files as Apple Live Photos on macOS"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Project Contributors"}]
+keywords = ["live-photo", "apple-photos", "heic", "mov", "macos", "pvt"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Operating System :: MacOS",
+  "Topic :: Multimedia :: Graphics",
+]
+
+[project.scripts]
+live-photo-heic-mov = "live_photo_heic_mov:main"
+
+[tool.setuptools]
+py-modules = ["live_photo_heic_mov"]

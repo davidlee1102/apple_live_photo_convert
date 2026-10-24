@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+
+# Never upload private personal photo/video media to a public GitHub repository
+*.heic
+*.HEIC
+*.heif
+*.HEIF
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.png
+*.PNG
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.pvt/
+*.photoslibrary/
+
+# Generated reports, source manifests, and temporary work
+*_heic_mov_preview_*.csv
+heic_mov_report_*.csv
+*.source.json
+LivePhotoInput/
+RecoveredLivePhotos_HEIC_MOV/
+LivePhotoSourceBackup_HEIC_MOV/
