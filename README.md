@@ -75,7 +75,7 @@ The project itself uses **only Python's standard library** and the above externa
 ### Option A — Clone from GitHub
 
 ```bash
-git clone [https://github.com/davidlee1102/apple_live_photo_convert.git](https://github.com/davidlee1102/apple_live_photo_convert/)
+git clone https://github.com/davidlee1102/apple_live_photo_convert.git
 cd live-photo-heic-mov
 ```
 
@@ -292,25 +292,6 @@ live-photo-heic-mov/
 └── tests/
     └── test_live_photo_heic_mov.py
 ```
-
-## Publishing to GitHub
-
-Create an **empty** repository named `live-photo-heic-mov` in your GitHub account, then from this project directory run:
-
-```bash
-git init
-git add .
-git commit -m "Initial release: HEIC/MOV Live Photo packager"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/live-photo-heic-mov.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME`. Before pushing, use `git status` and `git diff --cached --stat` to confirm you have not included personal media files, private metadata, or reports. The `.gitignore` is intended to help protect against accidentally committing photo/video files, but always inspect what will be pushed.
-
-## Dependencies and attribution
-
-This project wraps **[MakeLive by RhetTbull](https://github.com/RhetTbull/makelive)**, which writes and verifies Apple Live Photo content identifiers and constructs `.pvt` packages. MakeLive is **not bundled** in this repository. Refer to its own licence, documentation and warnings regarding metadata and potential media rewriting.
 
 ## License
 
